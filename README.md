@@ -12,3 +12,6 @@ Tool to optimize images
 - Copy the images you want to optimize in images directory
 - Execute npm start at root directory
 - Optimized Images should be saved in optimized_images directory
+
+
+# Tested using Mac OSX, Node 6.3.0
