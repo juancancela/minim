@@ -2,7 +2,7 @@ const imagemin = require('imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
 const imageminPngquant = require('imagemin-pngquant');
 
-imagemin(['images/*.{jpg,png}'], 'build/images', {
+imagemin(['images/*.{jpg,png}'], 'optimized_images', {
     plugins: [
         imageminMozjpeg(),
         imageminPngquant({quality: '65-80'})
