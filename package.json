@@ -1,0 +1,22 @@
+{
+  "name": "minim",
+  "version": "1.0.0",
+  "description": "Command Line Tool to optimize images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juancancela/minim.git"
+  },
+  "author": "Juan Carlos Cancela <cancela.juancarlos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juancancela/minim/issues"
+  },
+  "homepage": "https://github.com/juancancela/minim",
+  "dependencies": {
+    "imagemin": "^5.2.2"
+  }
+}
